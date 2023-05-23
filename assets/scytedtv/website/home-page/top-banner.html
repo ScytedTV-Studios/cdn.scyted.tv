@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <!DOCTYPE html>
-<html>
-   <head>
-      <title>ScytedTV: REDIRECTING</title>
-      <meta http-equiv = "refresh" content = "3; url = https://www.scyted.tv/" />
-   </head>
-   <body>
-      <p>Redirecting to target URL...</p>
-   </body>
-</html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+            color: #FFEA00;
+            background-color: black;
+            text-align: center;
+        }
+
+        .redirect-message {
+            margin-top: 200px;
+        }
+
+        a {
+            color: #FFEA00;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="redirect-message">
+        <p>Redirecting to target URL...</p>
+        <p><a href="https://www.scyted.tv/">Click here</a> if you are not redirected automatically.</p>
+    </div>
+
+    <script>
+        window.onload = function () {
+            var targetURL = "https://www.scyted.tv/";
+            window.location.href = targetURL;
+        };
+    </script>
+</body>
+
 </html>
