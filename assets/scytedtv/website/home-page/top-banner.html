@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <title>Redirecting...</title>
-    <style>
-        body {
-            font-family: 'Rubik', sans-serif;
-            color: #FFEA00;
-            background-color: black;
-            text-align: center;
-        }
-
-        .redirect-message {
-            margin-top: 200px;
-        }
-
-        a {
-            color: #FFEA00;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+      color: #FFEA00;
+      font-family: 'Rubik', sans-serif;
+      text-align: center;
+    }
+    
+    #redirect-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    #redirect-text p:first-child {
+      font-weight: bold;
+      font-size: 24px;
+    }
+    
+    #redirect-text a {
+      color: #FFEA00;
+      text-decoration: none;
+      border-bottom: 1px solid #FFEA00;
+    }
+  </style>
+  <script>
+    // Replace 'YOUR_TARGET_URL' with the URL you want to redirect users to.
+    var targetUrl = 'https://www.scyted.tv/';
+    
+    // Redirect to the target URL after 3 seconds (3000 milliseconds)
+    setTimeout(function() {
+      window.location.href = targetUrl;
+    }, 3000);
+  </script>
 </head>
-
 <body>
-    <div class="redirect-message">
-        <p>Redirecting to target URL...</p>
-        <p><a href="https://www.scyted.tv/">Click here</a> if you are not redirected automatically.</p>
-    </div>
-
-    <script>
-        window.onload = function () {
-            var targetURL = "https://www.scyted.tv/";
-            window.location.href = targetURL;
-        };
-    </script>
+  <div id="redirect-text">
+    <p><strong>Redirecting to target URL...</strong></p>
+    <p>Click <a href="https://www.scyted.tv/">here</a> if you are not redirected.</p>
+  </div>
 </body>
-
 </html>
