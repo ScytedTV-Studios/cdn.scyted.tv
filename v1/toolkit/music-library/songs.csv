@@ -1,0 +1,3 @@
+title,artist,genre,mood,url,artistLink
+Song 1,Artist 1,Rock,Happy,https://cdn.scyted.tv/toolkit/music-library/song1.mp3,https://example.com/artist1
+Song 2,Artist 2,Pop,Sad,https://cdn.scyted.tv/toolkit/music-library/song2.mp3,https://example.com/artist2

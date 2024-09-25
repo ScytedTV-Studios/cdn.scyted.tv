@@ -1,0 +1,18 @@
+[
+    {
+      "title": "Song 1",
+      "artist": "Artist 1",
+      "genre": "Rock",
+      "mood": "Happy",
+      "url": "https://cdn.scyted.tv/toolkit/music-library/song1.mp3",
+      "artistLink": "https://example.com/artist1"
+    },
+    {
+      "title": "Song 2",
+      "artist": "Artist 2",
+      "genre": "Pop",
+      "mood": "Sad",
+      "url": "https://cdn.scyted.tv/toolkit/music-library/song2.mp3",
+      "artistLink": "https://example.com/artist2"
+    }
+  ]
